@@ -1,0 +1,24 @@
+{
+  "claim_id": "CLM-01003",
+  "patient_id": "10339b10-3cd1-4ac3-ac13-ec26728cb592",
+  "patient_name": "Jayson808 Fadel536",
+  "encounter_id": "35ad487a-3e5b-44ad-9e04-6b628bdac9bb",
+  "claim_type": "OUTPATIENT",
+  "scenario": "LOW_QUALITY_HANDWRITING",
+  "expected_action": "MANUAL_DOCUMENT_REVIEW",
+  "expected_failures": [
+    "LOW_HANDWRITING_CONFIDENCE"
+  ],
+  "claimed_amount": 4585.7,
+  "supported_claim_amount": 4585.7,
+  "documents": [
+    "claim_form.pdf",
+    "handwritten_prescription.png",
+    "hospital_invoice.pdf",
+    "pharmacy_invoice.pdf",
+    "diagnostic_report.pdf",
+    "payment_receipt.pdf",
+    "discharge_summary.pdf"
+  ],
+  "generated_at": "2026-07-16T16:37:56"
+}

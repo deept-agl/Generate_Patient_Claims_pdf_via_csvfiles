@@ -1,0 +1,22 @@
+{
+  "claim_id": "CLM-01006",
+  "patient_id": "72c0b9ce-7aa4-430b-aaff-bd0ce7846e55",
+  "patient_name": "Jacinto644 Kris249",
+  "encounter_id": "7776525a-7762-4a97-a705-a2f7a19ad35b",
+  "claim_type": "OUTPATIENT",
+  "scenario": "VALID_CLAIM",
+  "expected_action": "ELIGIBLE_FOR_AUTO_APPROVAL",
+  "expected_failures": [],
+  "claimed_amount": 6929.0,
+  "supported_claim_amount": 6929.0,
+  "documents": [
+    "claim_form.pdf",
+    "handwritten_prescription.png",
+    "hospital_invoice.pdf",
+    "pharmacy_invoice.pdf",
+    "diagnostic_report.pdf",
+    "payment_receipt.pdf",
+    "discharge_summary.pdf"
+  ],
+  "generated_at": "2026-07-16T16:37:56"
+}

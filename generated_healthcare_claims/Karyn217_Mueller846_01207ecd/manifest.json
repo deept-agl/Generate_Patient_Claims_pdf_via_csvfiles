@@ -1,0 +1,24 @@
+{
+  "claim_id": "CLM-01008",
+  "patient_id": "01207ecd-9dff-4754-8887-4652eda231e2",
+  "patient_name": "Karyn217 Mueller846",
+  "encounter_id": "159f1f28-aaf4-4044-ae62-80cd5ce64603",
+  "claim_type": "OUTPATIENT",
+  "scenario": "LOW_QUALITY_HANDWRITING",
+  "expected_action": "MANUAL_DOCUMENT_REVIEW",
+  "expected_failures": [
+    "LOW_HANDWRITING_CONFIDENCE"
+  ],
+  "claimed_amount": 4717.3,
+  "supported_claim_amount": 4717.3,
+  "documents": [
+    "claim_form.pdf",
+    "handwritten_prescription.png",
+    "hospital_invoice.pdf",
+    "pharmacy_invoice.pdf",
+    "diagnostic_report.pdf",
+    "payment_receipt.pdf",
+    "discharge_summary.pdf"
+  ],
+  "generated_at": "2026-07-16T16:37:57"
+}

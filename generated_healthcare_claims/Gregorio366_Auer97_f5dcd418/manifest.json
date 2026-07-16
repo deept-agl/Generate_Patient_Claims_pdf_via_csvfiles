@@ -1,0 +1,24 @@
+{
+  "claim_id": "CLM-01005",
+  "patient_id": "f5dcd418-09fe-4a2f-baa0-3da800bd8c3a",
+  "patient_name": "Gregorio366 Auer97",
+  "encounter_id": "827ffd6a-af59-4353-b566-3d5f5580a7c9",
+  "claim_type": "OUTPATIENT",
+  "scenario": "CLAIM_AMOUNT_MISMATCH",
+  "expected_action": "FINANCIAL_REVIEW",
+  "expected_failures": [
+    "CLAIM_AMOUNT_MISMATCH"
+  ],
+  "claimed_amount": 19382.89,
+  "supported_claim_amount": 16632.89,
+  "documents": [
+    "claim_form.pdf",
+    "handwritten_prescription.png",
+    "hospital_invoice.pdf",
+    "pharmacy_invoice.pdf",
+    "diagnostic_report.pdf",
+    "payment_receipt.pdf",
+    "discharge_summary.pdf"
+  ],
+  "generated_at": "2026-07-16T16:37:56"
+}

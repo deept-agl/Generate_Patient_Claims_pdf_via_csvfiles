@@ -1,0 +1,23 @@
+{
+  "claim_id": "CLM-01004",
+  "patient_id": "8d4c4326-e9de-4f45-9a4c-f8c36bff89ae",
+  "patient_name": "Mariana775 Rutherford999",
+  "encounter_id": "19e04f6c-8a80-4901-aa20-54ec7da8cced",
+  "claim_type": "OUTPATIENT",
+  "scenario": "MISSING_DISCHARGE_SUMMARY",
+  "expected_action": "INCOMPLETE_CLAIM",
+  "expected_failures": [
+    "MANDATORY_DOCUMENT_MISSING"
+  ],
+  "claimed_amount": 7879.77,
+  "supported_claim_amount": 7879.77,
+  "documents": [
+    "claim_form.pdf",
+    "handwritten_prescription.png",
+    "hospital_invoice.pdf",
+    "pharmacy_invoice.pdf",
+    "diagnostic_report.pdf",
+    "payment_receipt.pdf"
+  ],
+  "generated_at": "2026-07-16T16:37:56"
+}

@@ -1,0 +1,22 @@
+{
+  "claim_id": "CLM-01001",
+  "patient_id": "1d604da9-9a81-4ba9-80c2-de3375d59b40",
+  "patient_name": "José Eduardo181 Gómez206",
+  "encounter_id": "4e595f0c-f50f-461b-a04e-13b4e492350e",
+  "claim_type": "OUTPATIENT",
+  "scenario": "VALID_CLAIM",
+  "expected_action": "ELIGIBLE_FOR_AUTO_APPROVAL",
+  "expected_failures": [],
+  "claimed_amount": 5332.58,
+  "supported_claim_amount": 5332.58,
+  "documents": [
+    "claim_form.pdf",
+    "handwritten_prescription.png",
+    "hospital_invoice.pdf",
+    "pharmacy_invoice.pdf",
+    "diagnostic_report.pdf",
+    "payment_receipt.pdf",
+    "discharge_summary.pdf"
+  ],
+  "generated_at": "2026-07-16T16:37:55"
+}

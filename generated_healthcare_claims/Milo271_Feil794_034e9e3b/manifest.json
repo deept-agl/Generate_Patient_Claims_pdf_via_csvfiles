@@ -1,0 +1,24 @@
+{
+  "claim_id": "CLM-01002",
+  "patient_id": "034e9e3b-2def-4559-bb2a-7850888ae060",
+  "patient_name": "Milo271 Feil794",
+  "encounter_id": "1b3d7c95-f4d3-4dfb-83de-8773f5ce01f7",
+  "claim_type": "OUTPATIENT",
+  "scenario": "UNPRESCRIBED_MEDICINE",
+  "expected_action": "MEDICAL_REVIEW",
+  "expected_failures": [
+    "PRESCRIPTION_PHARMACY_MISMATCH"
+  ],
+  "claimed_amount": 7058.26,
+  "supported_claim_amount": 7058.26,
+  "documents": [
+    "claim_form.pdf",
+    "handwritten_prescription.png",
+    "hospital_invoice.pdf",
+    "pharmacy_invoice.pdf",
+    "diagnostic_report.pdf",
+    "payment_receipt.pdf",
+    "discharge_summary.pdf"
+  ],
+  "generated_at": "2026-07-16T16:37:55"
+}

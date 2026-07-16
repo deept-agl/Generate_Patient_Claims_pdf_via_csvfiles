@@ -1,0 +1,24 @@
+{
+  "claim_id": "CLM-01010",
+  "patient_id": "cfee79fc-df05-476e-b274-43e09ea345db",
+  "patient_name": "Alva958 Krajcik437",
+  "encounter_id": "1faca622-cd1c-4dcb-98dc-4d642169d01c",
+  "claim_type": "OUTPATIENT",
+  "scenario": "CLAIM_AMOUNT_MISMATCH",
+  "expected_action": "FINANCIAL_REVIEW",
+  "expected_failures": [
+    "CLAIM_AMOUNT_MISMATCH"
+  ],
+  "claimed_amount": 8249.18,
+  "supported_claim_amount": 5499.18,
+  "documents": [
+    "claim_form.pdf",
+    "handwritten_prescription.png",
+    "hospital_invoice.pdf",
+    "pharmacy_invoice.pdf",
+    "diagnostic_report.pdf",
+    "payment_receipt.pdf",
+    "discharge_summary.pdf"
+  ],
+  "generated_at": "2026-07-16T16:37:57"
+}

@@ -1,0 +1,23 @@
+{
+  "claim_id": "CLM-01009",
+  "patient_id": "b58731cc-2d8b-4c2d-b327-4cab771af3ef",
+  "patient_name": "Isabel214 Lucio648",
+  "encounter_id": "7a66963f-1590-4953-9563-f1fbd4bb769c",
+  "claim_type": "OUTPATIENT",
+  "scenario": "MISSING_DISCHARGE_SUMMARY",
+  "expected_action": "INCOMPLETE_CLAIM",
+  "expected_failures": [
+    "MANDATORY_DOCUMENT_MISSING"
+  ],
+  "claimed_amount": 85894.96,
+  "supported_claim_amount": 85894.96,
+  "documents": [
+    "claim_form.pdf",
+    "handwritten_prescription.png",
+    "hospital_invoice.pdf",
+    "pharmacy_invoice.pdf",
+    "diagnostic_report.pdf",
+    "payment_receipt.pdf"
+  ],
+  "generated_at": "2026-07-16T16:37:57"
+}
